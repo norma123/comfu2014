@@ -1,0 +1,128 @@
+*{margin:0;padding:0}
+
+@font-face {
+    font-family: 'futura';
+    src: url('fonts/futult-webfont.eot');
+    src: url('fonts/futult-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futult-webfont.woff') format('woff'),
+         url('fonts/futult-webfont.ttf') format('truetype'),
+         url('fonts/futult-webfont.svg#futura_lt_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {height: 100%;width:100%;font-family:'futura';font-size:12px;color:#878786;}
+
+a{text-decoration:none;color:#878786}
+
+
+#container{width:950px;margin:0 auto;height:100%}
+#footer{position:fixed;bottom:0;background-color:#e6e7e8;font-weight:normal;font-size:12px;color:#878786;width:100%;height:23px;z-index:100}
+#footer #footcontent{position:relative;margin: 0 auto;width:950px;text-align:center;font-size:12px;padding-top:5px}
+#leftpanel{width:230px;padding-right:10px;position:fixed;}
+#leftpanel #logo{padding-left:40px;padding-top:24px}
+#leftpanel #navigationpanel{padding:35px 0 15px 0}
+
+#rightpanel{width:710px;float:left;margin-left:240px;height:100%;position:relative}
+
+
+#homepage{min-height: 100%; height: auto !important;height:100%;position:relative}
+#aboutus{min-height: 100%; height: auto !important;height:100%;position:relative;background-image:url('images/aboutusbottom.jpg');background-repeat:no-repeat;background-position:left bottom;width:710px;}
+#portfolio{min-height: 100%; height: auto !important;height:100%;position:relative;background-image:url('images/const.jpg');background-repeat:no-repeat;background-position:right bottom;}
+#services{min-height: 100%; height: auto !important;height:100%;position:relative;}
+#careers{min-height: 100%; height: auto !important;height:100%;position:relative;background-image:url('images/careersbottom.jpg');background-repeat:no-repeat;background-position:350px bottom;}
+#construction{min-height: 100%; height: auto !important;height:100%;position:relative;background-image:url('images/const.jpg');background-repeat:no-repeat;background-position:right bottom;}
+#news{min-height: 100%; height: auto !important;height:100%;position:relative;background-image:url('images/const.jpg');background-repeat:no-repeat;background-position:right bottom;}
+#contactus{min-height: 100%; height: auto !important;height:100%;position:relative;background-image:url('images/contactusbottom.jpg');background-repeat:no-repeat;background-position:right bottom;width:710px;}
+
+#contactus #top{background-image:url('images/contactustop.jpg');background-repeat:no-repeat;background-position:right top;width:710px;min-height:202px}
+#contactus #bottom{width:710px;min-height:100%;padding:0 0 275px 0}
+
+#aboutus #top{background-image:url('images/aboutustop.jpg');background-repeat:no-repeat;background-position:right top;width:700px;min-height:393px;padding:120px 0 0 10px}
+
+#menu li ul li{margin:0;padding:1px;}
+#menu  li{list-style-type:none;width:126px;height:16px;background-color:#bcbdc0;margin:1px;color:#fff;padding-top:2px}
+#menu  li a{padding:0px 0 0 10px;color:#fff;}
+#menu  li:hover{background-color:#b20139}
+
+
+#menunewsinput{background: url('images/newsinput.gif') no-repeat;padding-left:5px;width:180px;height:22px;font-size:12px;font-weight:normal}
+#searchproject{background: url('images/searchinput.gif') no-repeat;padding-left:5px;width:180px;height:22px;font-size:12px;font-weight:normal}
+#newshome{padding-left:40px}
+#hnewsbox{width:182px;height:102px;position;relative;padding-top:10px}
+#hnewsshadow{
+	padding:5px;
+	background-color:#fff;
+	width:182px;height:46px;position:absolute;bottom:0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+  opacity: 0.8;
+}
+#hnewsshadow a{color:#005191}
+
+/*#accordion{padding-top:177px}*/
+#accordion{padding-top:150px}
+#accordion h3{color:#00528c;font-weight:normal;margin-bottom:15px;margin-top:15px}
+#accordion div{background-color:#f1f2f5;padding:7px;}
+#accordion img{float:left;margin-right:7px;margin-bottom:5px}
+
+
+#portfoliotop{background-image:url('images/porttop.jpg');background-repeat:no-repeat;background-position:right top;width:700px;height:120px;}
+#portfoliobox{position:relative}
+#portfoliobox img{padding:1px;width:154px;height:115px;}
+#portfoliobox #menunavcon{width:126px;height:95px;background-color:#f1f2f5;float:left;padding:10px 14px;margin-left:0;margin-right:4px}
+
+
+#projectbox{background-color:#f1f2f5;width:590px;}
+#projecttable{width:566px;margin:0 auto;padding-bottom:35px;}
+#projecttable th{background-color:#b30239;color:#fff}
+#projecttable td{background-color:#bcbdc0;color:#fff}
+#breadcrumb {padding:6px 9px;background-image:url('images/bread.gif');background-repeat:no-repeat;background-position:left 5px;}
+.aboutustext{height:210px;width:520px;overflow:hidden;position:relative;padding:0 30px 0 0;text-align:justify}
+.aboutustext2{height:105px;width:150px;overflow:hidden;position:relative;padding:15px 30px 0 0;text-align:justify}
+#breadcrumb h3{float:left;font-size:14px;padding:0 6px}
+.aboutarrowup{position:absolute;top:0;right:0;cursor:pointer}
+.aboutarrowdown{position:absolute;bottom:0;right:0;cursor:pointer}
+
+
+#careers #top{background-image:url('images/careerstop.jpg');background-repeat:no-repeat;background-position:right top;min-height:325px;padding-top:205px}
+
+#careers #top{padding-left:100px;}
+#careers #top #leftposition{width:162px;float:left;margin-right:25px}
+#careers #top #leftposition h2{padding-top:23px;padding-left:4px;padding-bottom:10px;background-image:url('images/arrow_active.gif');background-repeat:no-repeat;background-position:center top;color:#b20139}
+.job{width:142px;background-color:#f1f2f5;padding:10px;font-weight:bold;margin-bottom:5px}
+
+#careers #top #rightposition{float:left}
+#careers #top #rightposition h2{padding-top:7px;padding-left:8px;padding-bottom:1px;color:#b20139;font-size:15px;font-weight:normal}
+
+#tabs ul li {list-style-type:none;font-size:14px;padding-bottom:25px}
+
+#stabs ul{border:0px solid black;vertical-align:top}
+
+#stabs ul li{float:left;width:122px;border:0px solid black;margin:0 20px;padding-top:20px;font-size:16px;text-align:center;list-style-type:none;background: url('images/arrow_noactive.gif')no-repeat center top;}
+
+input[type=text]{width:281px;height:27px;color:#878786;padding-left:5px;font-size:14px;background-color:#dcdcdd;border:none;}
+textarea{width:278px;height:97px;overflow:hidden;resize:none;color:#878786;font-size:14px;background-color:#dcdcdd;border:none; padding-top:3px;padding-left:3px;vertical-align:top}
+
+#services #stabs #stabs-1{background: url('images/pretender.jpg')no-repeat right bottom;min-height:324px;padding:0 365px 0 47px;text-align:justify}
+#services #stabs #stabs-2{background: url('images/postcon.jpg')no-repeat right bottom;min-height:324px;padding:0 250px 130px 180px;text-align:justify}
+#services #stabs #stabs-3{background: url('images/tender.jpg')no-repeat left bottom;min-height:324px;padding:0 100px 150px 370px;text-align:justify}
+#services #stabs #stabs-4{background: url('images/projectman.jpg')no-repeat left bottom;min-height:324px;padding:0 30px 45px 500px;text-align:justify}
+li.ui-tabs-active a{ color:#b20139}
+#stabs ul li.ui-tabs-active{background: url('images/arrow_active.gif')no-repeat center top;}
+.navigation  li{margin-left:40px;list-style-type:none;padding:4px 0;font-size:14px }
+
+.aboutusarrow{position:absolute;top:126px;left:-240px;}
+.portfolioarrow{position:absolute;top:150px;left:-240px;}
+.projectboxarrow{position:absolute;top:150px;left:-240px;}
+.servicesarrow{position:absolute;top:175px;left:-240px;}
+.careersarrow{position:absolute;top:200px;left:-240px;}
+.constructionarrow{position:absolute;top:226px;left:-240px;}
+.contactusarrow{position:absolute;top:250px;left:-240px;}
+.newsarrow{position:absolute;top:288px;left:-240px;}
+
+.triplearrowcontact{position:absolute;top:-30px;left:45%}
+.triplearrowcontact2{position:absolute;top:-30px;right:-15%}

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+
+    Options +FollowSymLinks
+    RewriteEngine on
+	RewriteBase /~demo/manoukian/
+    # Send request via index.php
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L]
+	AddDefaultCharset utf-8
+</IfModule>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+allow from all
+</Limit>
